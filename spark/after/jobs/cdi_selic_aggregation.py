@@ -1,8 +1,15 @@
 from __future__ import annotations
 
 import argparse
+import sys
+from pathlib import Path
 
 from pyspark.sql import DataFrame, SparkSession, Window
+
+_SRC = Path(__file__).resolve().parents[3] / "src"
+if str(_SRC) not in sys.path:
+    sys.path.insert(0, str(_SRC))
+
 from pyspark.sql.functions import avg, col, count, exp, log, lit, max as spark_max, min as spark_min, row_number, sum as spark_sum
 from pyspark.sql.types import DoubleType, StringType, StructField, StructType
 

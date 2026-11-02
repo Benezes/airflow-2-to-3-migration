@@ -1,8 +1,15 @@
 from __future__ import annotations
 
 import argparse
+import sys
+from pathlib import Path
 
 from pyspark.sql import DataFrame, SparkSession
+
+_SRC = Path(__file__).resolve().parents[3] / "src"
+if str(_SRC) not in sys.path:
+    sys.path.insert(0, str(_SRC))
+
 from pyspark.sql.functions import col, length, lit, regexp_replace, row_number
 from pyspark.sql.types import StringType, StructField, StructType
 from pyspark.sql.window import Window

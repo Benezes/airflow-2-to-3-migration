@@ -1,6 +1,12 @@
 import argparse
+import sys
+from pathlib import Path
 
 from pyspark.sql import SparkSession
+
+_SRC = Path(__file__).resolve().parents[3] / "src"
+if str(_SRC) not in sys.path:
+    sys.path.insert(0, str(_SRC))
 
 from legacy_etl.money import money, rate8, to_decimal
 
