@@ -1,0 +1,27 @@
+{
+  "counters": {
+    "kept": 2,
+    "read": 3,
+    "skipped": 1
+  },
+  "rows": [
+    {
+      "classe": "Multimercado",
+      "cnpj": "11222333000144",
+      "denom_social": "FUNDO GAMMA MULTIMERCADO",
+      "dt_reg": "2015-07-20",
+      "ref_date": "2024-06-10",
+      "sit": "EM FUNCIONAMENTO NORMAL",
+      "vl_patrim_liq": "87500000.50"
+    },
+    {
+      "classe": "Renda Fixa",
+      "cnpj": "12345678000190",
+      "denom_social": "FUNDO ALPHA RENDA FIXA",
+      "dt_reg": "2010-01-15",
+      "ref_date": "2024-06-10",
+      "sit": "EM FUNCIONAMENTO NORMAL",
+      "vl_patrim_liq": "150000000.00"
+    }
+  ]
+}

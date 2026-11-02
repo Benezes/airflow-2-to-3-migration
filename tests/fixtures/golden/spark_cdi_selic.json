@@ -1,0 +1,42 @@
+[
+  {
+    "avg_rate_pct": "10.40",
+    "compounded_factor": "1.00039270",
+    "last_rate_pct": "10.40",
+    "max_rate_pct": "10.40",
+    "min_rate_pct": "10.40",
+    "n_obs": 1,
+    "series_id": "CDI",
+    "year_month": "2024-05"
+  },
+  {
+    "avg_rate_pct": "10.50",
+    "compounded_factor": "1.00039629",
+    "last_rate_pct": "10.50",
+    "max_rate_pct": "10.50",
+    "min_rate_pct": "10.50",
+    "n_obs": 1,
+    "series_id": "SELIC",
+    "year_month": "2024-05"
+  },
+  {
+    "avg_rate_pct": "10.40",
+    "compounded_factor": "1.00117891",
+    "last_rate_pct": "10.41",
+    "max_rate_pct": "10.41",
+    "min_rate_pct": "10.40",
+    "n_obs": 3,
+    "series_id": "CDI",
+    "year_month": "2024-06"
+  },
+  {
+    "avg_rate_pct": "10.50",
+    "compounded_factor": "1.00118934",
+    "last_rate_pct": "10.50",
+    "max_rate_pct": "10.50",
+    "min_rate_pct": "10.50",
+    "n_obs": 3,
+    "series_id": "SELIC",
+    "year_month": "2024-06"
+  }
+]

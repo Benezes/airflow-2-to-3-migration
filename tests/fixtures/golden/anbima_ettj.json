@@ -1,0 +1,33 @@
+{
+  "counters": {
+    "kept": 4,
+    "read": 5,
+    "skipped": 1
+  },
+  "rows": [
+    {
+      "curva": "IPCA",
+      "ref_date": "2024-06-10",
+      "taxa": "0.05500000",
+      "vertice_dias": 252
+    },
+    {
+      "curva": "IPCA",
+      "ref_date": "2024-06-10",
+      "taxa": "0.05750000",
+      "vertice_dias": 756
+    },
+    {
+      "curva": "PRE",
+      "ref_date": "2024-06-10",
+      "taxa": "0.10750000",
+      "vertice_dias": 252
+    },
+    {
+      "curva": "PRE",
+      "ref_date": "2024-06-10",
+      "taxa": "0.11200000",
+      "vertice_dias": 756
+    }
+  ]
+}

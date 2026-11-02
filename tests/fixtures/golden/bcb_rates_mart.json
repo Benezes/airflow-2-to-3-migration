@@ -1,0 +1,14 @@
+[
+  {
+    "rate_pct": "10.40",
+    "ref_date": "2024-06-10",
+    "series_id": "CDI",
+    "source_system": "bcb_sgs"
+  },
+  {
+    "rate_pct": "10.50",
+    "ref_date": "2024-06-10",
+    "series_id": "SELIC",
+    "source_system": "bcb_sgs"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "classe": "Multimercado",
+    "cnpj": "11222333000144",
+    "denom_social": "FUNDO GAMMA MULTIMERCADO",
+    "dt_reg": "2015-07-20",
+    "is_current": "Y",
+    "sit": "EM FUNCIONAMENTO NORMAL",
+    "valid_from": "2024-01-01",
+    "valid_to": "9999-12-31",
+    "vl_patrim_liq": "87500000.50"
+  },
+  {
+    "classe": "Renda Fixa",
+    "cnpj": "12345678000190",
+    "denom_social": "FUNDO ALPHA RENDA FIXA ANTERIOR",
+    "dt_reg": "2010-01-15",
+    "is_current": "N",
+    "sit": "EM FUNCIONAMENTO NORMAL",
+    "valid_from": "2023-01-01",
+    "valid_to": "2023-12-31",
+    "vl_patrim_liq": "130000000.00"
+  },
+  {
+    "classe": "Renda Fixa",
+    "cnpj": "12345678000190",
+    "denom_social": "FUNDO ALPHA RENDA FIXA OLD",
+    "dt_reg": "2010-01-15",
+    "is_current": "N",
+    "sit": "EM FUNCIONAMENTO NORMAL",
+    "valid_from": "2024-01-01",
+    "valid_to": "2024-06-10",
+    "vl_patrim_liq": "140000000.00"
+  },
+  {
+    "classe": "Renda Fixa",
+    "cnpj": "12345678000190",
+    "denom_social": "FUNDO ALPHA RENDA FIXA",
+    "dt_reg": "2010-01-15",
+    "is_current": "Y",
+    "sit": "EM FUNCIONAMENTO NORMAL",
+    "valid_from": "2024-06-10",
+    "valid_to": "9999-12-31",
+    "vl_patrim_liq": "150000000.00"
+  }
+]
