@@ -1,5 +1,7 @@
 # Airflow 2 → Airflow 3 migration showcase
 
+[![CI](https://github.com/Benezes/airflow-2-to-3-migration/actions/workflows/ci.yml/badge.svg)](https://github.com/Benezes/airflow-2-to-3-migration/actions/workflows/ci.yml)
+
 Fixed-price migration work for small US and EU data teams that still run Airflow 2 and need a boring, testable path onto Airflow 3.
 
 This repository is a public before/after portfolio. It uses **public Brazilian financial market data** only (CVM fund registry, B3 index levels, Anbima yield curves, BCB CDI/Selic, cash proventos). There are no client names, no vendor lock-in stories, and no private schemas.

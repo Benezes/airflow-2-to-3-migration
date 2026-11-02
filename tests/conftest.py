@@ -17,6 +17,12 @@ for path in (str(SRC), str(ROOT)):
     if path not in sys.path:
         sys.path.insert(0, path)
 
+_pythonpath_parts = [str(SRC), str(ROOT)]
+_existing_pythonpath = os.environ.get("PYTHONPATH", "")
+if _existing_pythonpath:
+    _pythonpath_parts.append(_existing_pythonpath)
+os.environ["PYTHONPATH"] = os.pathsep.join(_pythonpath_parts)
+
 os.environ["AIRFLOW_HOME"] = str(AIRFLOW_HOME)
 os.environ["AIRFLOW__CORE__DAGS_FOLDER"] = str(DAGS_FOLDER)
 os.environ["AIRFLOW__CORE__LOAD_EXAMPLES"] = "false"
@@ -86,6 +92,7 @@ def reset_store(airflow_home: Path) -> Path:
 def spark():
     from pyspark.sql import SparkSession
 
+    pythonpath = os.environ["PYTHONPATH"]
     session = (
         SparkSession.builder.master("local[1]")
         .appName("portfolio-tests")
@@ -93,6 +100,8 @@ def spark():
         .config("spark.sql.session.timeZone", "UTC")
         .config("spark.driver.host", "127.0.0.1")
         .config("spark.driver.bindAddress", "127.0.0.1")
+        .config("spark.executorEnv.PYTHONPATH", pythonpath)
+        .config("spark.driverEnv.PYTHONPATH", pythonpath)
         .getOrCreate()
     )
     yield session
