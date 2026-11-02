@@ -1,0 +1,45 @@
+{
+  "counters": {
+    "kept": 3,
+    "read": 3,
+    "skipped": 0
+  },
+  "rows": [
+    {
+      "cotas": "200.00",
+      "data_ex": "2024-06-10",
+      "data_pagamento": "2024-06-15",
+      "gross_amount": "184.00",
+      "ir_amount": "0.00",
+      "net_amount": "184.00",
+      "ref_date": "2024-06-10",
+      "ticker": "HGLG11",
+      "tipo": "RENDIMENTO",
+      "valor_por_cota": "0.92"
+    },
+    {
+      "cotas": "1000.00",
+      "data_ex": "2024-06-10",
+      "data_pagamento": "2024-06-20",
+      "gross_amount": "500.00",
+      "ir_amount": "0.00",
+      "net_amount": "500.00",
+      "ref_date": "2024-06-10",
+      "ticker": "PETR4",
+      "tipo": "DIVIDENDO",
+      "valor_por_cota": "0.50"
+    },
+    {
+      "cotas": "500.00",
+      "data_ex": "2024-06-10",
+      "data_pagamento": "2024-06-25",
+      "gross_amount": "400.00",
+      "ir_amount": "60.00",
+      "net_amount": "340.00",
+      "ref_date": "2024-06-10",
+      "ticker": "VALE3",
+      "tipo": "JCP",
+      "valor_por_cota": "0.80"
+    }
+  ]
+}

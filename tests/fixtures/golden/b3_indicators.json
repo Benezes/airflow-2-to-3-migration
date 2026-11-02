@@ -1,0 +1,30 @@
+{
+  "counters": {
+    "kept": 3,
+    "read": 3,
+    "skipped": 0
+  },
+  "rows": [
+    {
+      "close": "122000.12",
+      "code": "IBOV",
+      "daily_return": "0.00743287",
+      "prev_close": "121100.00",
+      "ref_date": "2024-06-10"
+    },
+    {
+      "close": "3301.45",
+      "code": "IFIX",
+      "daily_return": "0.00344974",
+      "prev_close": "3290.10",
+      "ref_date": "2024-06-10"
+    },
+    {
+      "close": "2010.00",
+      "code": "SMLL",
+      "daily_return": "-0.00495050",
+      "prev_close": "2020.00",
+      "ref_date": "2024-06-10"
+    }
+  ]
+}

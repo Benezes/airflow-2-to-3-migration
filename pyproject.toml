@@ -1,0 +1,23 @@
+[project]
+name = "airflow-2-to-3-migration"
+version = "1.0.0"
+description = "Public showcase of Airflow 2 to Airflow 3 DAG migrations for Brazilian market data pipelines, including PySpark jobs."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::UserWarning",
+    "ignore::FutureWarning",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 120
+extend-exclude = ["before", "spark/before", ".venv", ".airflow_test_home"]
+
+[tool.ruff.lint]
+select = ["AIR301", "AIR302", "AIR311", "AIR312"]

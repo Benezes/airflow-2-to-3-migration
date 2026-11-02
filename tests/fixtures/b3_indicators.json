@@ -1,0 +1,8 @@
+{
+  "ref_date": "2024-06-10",
+  "indices": [
+    {"code": "IBOV", "close": 122000.12, "prev_close": 121100.00},
+    {"code": "IFIX", "close": 3301.45, "prev_close": 3290.10},
+    {"code": "SMLL", "close": 2010.00, "prev_close": 2020.00}
+  ]
+}

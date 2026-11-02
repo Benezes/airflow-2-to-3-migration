@@ -1,0 +1,35 @@
+fs_default:
+  conn_type: fs
+  extra: '{"path": "/"}'
+postgres_market:
+  conn_type: postgres
+  host: localhost
+  schema: market
+  login: airflow
+  password: airflow
+  port: 5432
+postgres_staging:
+  conn_type: postgres
+  host: localhost
+  schema: staging
+  login: airflow
+  password: airflow
+  port: 5432
+postgres_warehouse:
+  conn_type: postgres
+  host: localhost
+  schema: warehouse
+  login: airflow
+  password: airflow
+  port: 5432
+aws_default:
+  conn_type: aws
+  extra: '{"region_name": "us-east-1"}'
+anbima_http:
+  conn_type: http
+  host: https://www.anbima.com.br
+spark_default:
+  conn_type: spark
+  host: local
+kubernetes_default:
+  conn_type: kubernetes
